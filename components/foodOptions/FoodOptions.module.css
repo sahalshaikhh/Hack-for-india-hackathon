@@ -1,0 +1,28 @@
+/* FoodOptions.css */
+
+.foodOptions {
+  display: flex; /* Display buttons in a horizontal row */
+  gap: 22px; /* Add some spacing between buttons */
+}
+
+.optionWrapper {
+  flex: 1; /* Distribute available space evenly among buttons */
+}
+
+.optionButton {
+  background-color: #7f7f7f; /* Button background color */
+  color: #fff; /* Text color */
+  padding: 10px 32px; /* Padding for the button */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border-radius: 280px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+.optionButton:hover {
+  background-color: #000; /* Darker background color on hover */
+}
+
+.active {
+  background-color: #000; /* Active button color */
+}

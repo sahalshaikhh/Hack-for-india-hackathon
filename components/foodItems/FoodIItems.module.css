@@ -1,0 +1,28 @@
+/* FoodItems.module.css */
+
+/* Container for the card layout */
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Spacing evenly cards */
+  gap: 0rem;
+}
+
+/* Individual card style */
+.card {
+  flex: 1; /* Each card takes up an equal portion of the container */
+  max-width: calc(50% - 16px); /* Two cards in a row on mobile */
+  flex-basis: calc(50% - 16px); /* Two cards in a row on mobile */
+  margin-bottom: 35px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+
+  /* Media query for larger screens (adjust as needed) */
+  @media (min-width: 768px) {
+    max-width: calc(33.33% - 24px); /* Three cards in a row on larger screens */
+    flex-basis: calc(
+      33.33% - 24px
+    ); /* Three cards in a row on larger screens */
+    margin-right: 8px; /* Add some space between cards */
+  }
+}

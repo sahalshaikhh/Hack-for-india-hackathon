@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "dependencies": {
+    "next/image": "https://github.com/next/image.git"
+  }
+}
